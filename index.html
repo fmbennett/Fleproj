@@ -3,35 +3,47 @@
 
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Deef Haus</title>
+	<title>Deep Haus</title>
 
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Pacifico|Poiret+One" rel="stylesheet">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
 <script src="./js/main.js"></script>
 
 </head>
 
 <body>
-	<header>
-		<div class="container">
-			<div class="logo">
-				<img src="./images/logo.jpg">
-			</div>
-			<hr>	
+	<div class="container">
+		<nav id="menu">
+				<a href="#home">HOME</a>
+				<a href="#about">ABOUT</a>
+				<a href="#events">EVENTS</a>
+				<a href="#portfolio">PORTFOLIO</a>
+				<a href="#Contact">CONTACT</a>	
+		</nav>
+	<!---responsive***********************************-->
+		<div class="mobile-menu">
+			<div class="hamburger"></div>
+			<div class="hamburger"></div>
+			<div class="hamburger"></div>
+		</div>
+
+		<div id="burger-menu">
+
+		</div>
+
+	<!---responsive***********************************-->
+
 	
-			<nav id="menu">
-				<article>
-					<a href="home.html">HOME</a>
-					<a href="about.html">ABOUT</a>
-					<a href="events.html">EVENTS</a>
-					<a href="portfolio.html">PORTFOLIO</a>
-					<a href="contact.html">CONTACT</a>	
-				</article>
-			</nav>
+		<header id="home">
+		<div class="logo">
+		
+			<img src="./images/logo.jpg">
+		</div>
 			
-		<hr>
+		
 
 		<h1>Deep Haus</h1>
 		<h2>The Social Dream Team</h2>
@@ -52,14 +64,14 @@
 						<li>We are people of many colors & many tales. </li>
 						<li>We are a family that drives the culture forward.</li>
 						<li>We are driven by the constant changing minds of consumers.</li> 
-						<li>We promote. We create experiences with individuals & brands.</li>
+						<li>We coordinate. We promote. We create experiences with individuals & brands.</li>
 					</ul>
 				</p>
 		</section>
 
 		<img src="./images/wildnfree.jpg">
 					
-		<section class="events"> 
+		<section id="events"> 
 			<h5>EVENTS</h5>
 
 				<p>Busting the mission is the motive. We work with our clients to create events of many different varieties. From food functions to concerts, a party in your garage to a round table discussion about different ideas. We can organize it all. We are here to put our heads together to bring forth electrifying events that leave everyone in attendance with a positive thought about your company, your product, your brand, or you!</p> 
@@ -78,9 +90,39 @@
 
 		<img src="./images/watchin.jpg">
 
-		<section class="portfolio">
+		<section id="portfolio">
 
-			<h6>PORTFOLIO</h6>
+			<h5 style="color:#6d2733">PORTFOLIO</h5>
+				
+					<div class="leftcol">
+						<i class="material-icons" style="font-size:150px;color:#6d2733">people_outline</i>
+						<h4 style="color:#6d2733">Interactive Events</h4>
+					</div>
+
+					<div class="rightcol">
+						<i class="material-icons" style="font-size:150px;color:#6d2733">beach_access</i>
+						<h4 style="color:#6d2733">Party Settings</h4>
+					</div>
+
+					<div class="leftcol">
+						<i class="material-icons"style="font-size:150px;color:#6d2733">computer</i>
+						<h4 style="color:#6d2733">Tech</h4>
+					</div>
+
+					<div class="rightcol">
+						<i class="material-icons" style="font-size:150px;color:#6d2733">brush</i>
+						<h4 style="color:#6d2733">All Kind's A' Arts</h4>
+					</div>
+					<div class="rightcol">
+						<i class="material-icons" style="font-size:150px;color:#6d2733">restaurant</i>
+						<h4 style="color:#6d2733">Food & Drank</h4>
+					</div>
+
+					<div class="leftcol">
+						<i class="material-icons" style="font-size:150px;color:#6d2733">queue_music</i>
+						<h4 style="color:#6d2733">Queue the Music</h4>
+					</div>
+
 
 				<img src="">
 				<img src="">
@@ -90,9 +132,9 @@
 
 		<img src="./images/hitusup.jpg">
 
-		<section class="Contact">
+		<section id="Contact">
 
-			<h7>HiT US UP</h7>
+			<h3>HiT US UP</h3>
 					
 				<label>Name:</label>
 				<input type="text" placeholder="Felicia Bennett">
@@ -104,7 +146,7 @@
 				<input type="phone" placeholder="415-123-4567">
 
 				<label>Questions:</label>
-				<input type="text" placeholder="Questions?">
+				<input type="text" placeholder="Questions?" style="width: 300px; height: 150px">
 				<input type="button" value="submit" id="Button">
 		</section>
 	</div>
