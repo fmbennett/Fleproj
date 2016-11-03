@@ -3,10 +3,7 @@ $(document).ready(function() {
 		function(){
 			$("#burger").slideToggle();
 		}
-
 		);
-
-	
 }); 
 	
 
