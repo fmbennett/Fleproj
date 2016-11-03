@@ -151,6 +151,24 @@ img{
 		height: 20%;
 		padding-top: 5px;
 	}
+  .nav-mobile {
+	    margin-top: 50px;
+	    text-align: center;
+
+  }
+	hr {
+	    display: block;
+	    height: 1px;
+	    border: 0;
+	    border-top: 1px solid #ffffff;
+	    margin: 1em 0;
+	    padding: 0; 
+	}
+	#burger .nav-mobile ul li a {
+	    margin: 10px 0 0 40px;
+	    color: black;
+	    font-size: 18px;
+	}
 
 	.logo img {
 		border-radius: 20%;
